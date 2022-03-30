@@ -1,10 +1,12 @@
 import type { NextPage } from 'next'
 import S from '../styles/home'
+import Header from '../components/Header'
 
 
 const Home: NextPage = () => {
   return (
     <S.Container>
+      <Header />
       <S.Main>
         <S.Grid>
           <S.Card
