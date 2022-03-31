@@ -20,7 +20,7 @@ const S = {
       flex-wrap: wrap;
       max-width: 800px;
     `,
-    Card: styled.a`
+    Card: styled.div`
       margin: 1rem;
       padding: 1.5rem;
       text-align: left;
@@ -30,6 +30,11 @@ const S = {
       border-radius: 10px;
       transition: color 0.15s ease, border-color 0.15s ease;
       max-width: 300px;
+      cursor: pointer;
+    `,
+
+    Input: styled.input`
+      padding: 1rem;
     `
 }
 
